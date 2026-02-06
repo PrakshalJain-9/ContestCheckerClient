@@ -1,0 +1,3 @@
+sudo apt update
+sudo apt install gcc g++ default-jdk python3 git
+git clone https://github.com/PrakshalJain-9/ContestCheckerClient.git
