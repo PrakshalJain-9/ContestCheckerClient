@@ -1,0 +1,27 @@
+Movie on the Monitor
+
+Manao owns a monitor with a screen ratio of width to height as a:b. He plans to watch a movie whose frame ratio is c:d. He wants the movie to fit the screen entirely while maintaining its original aspect ratio, maximizing the screen usage. This may require zooming in or out, but the movie's proportions must remain consistent.
+
+Task
+Determine the fraction of the screen that remains empty (not covered by the movie) and express it as an irreducible fraction p/q.
+
+Input:
+The first line contains t - no of test cases
+then next line contains Four integers a, b, c, d (1 ≤ a, b, c, d ≤ 1000) separated by spaces.
+
+Output:
+Print the ratio of empty screen area to total screen area as "p/q", where p ≥ 0, q > 0, and numbers p and q don't have a common divisor larger than 1.
+-----------------------------------------------------------------------
+Examples
+Input:
+2
+1 1 3 2
+4 3 2 2
+-----------------------------------------------------------------
+Output:
+1/3
+1/4
+--------------------------------------------------------------
+Explanation:
+
+->Example 1: The monitor is square, and the movie is 3:2. Scaling to fit the width, 1/3 of the screen remains empty vertically.->Example 2: The monitor is wider than tall (4:3) and the movie is square. Scaling to fit the height, 1/4 of the screen remains empty horizontally.

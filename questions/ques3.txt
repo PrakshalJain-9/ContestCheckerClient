@@ -1,0 +1,13 @@
+Write a function f(n) that:
+Returns "FB" if n divisible by both 3 and 5
+Returns "F" if divisible by 3
+Returns "B" if divisible by 5
+Else returns n as a string
+
+
+input->
+the first line takes no of test cases (t)
+second line contain n
+
+output->
+print the one thing - String
