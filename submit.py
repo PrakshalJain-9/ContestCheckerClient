@@ -5,7 +5,7 @@ import os
 
 # --- CONFIG ---
 # CHANGE THIS TO THE SERVER'S IP ADDRESS
-SERVER_IP = '192.168.1.15'  # <--- Update this to your (Organizer's) IP
+SERVER_IP = '172.22.1.180'  # <--- Update this to your (Organizer's) IP
 SERVER_PORT = 9999
 
 def get_local_ip():
